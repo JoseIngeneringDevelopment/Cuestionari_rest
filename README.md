@@ -18,3 +18,20 @@ La API  está desarrollada sobre Django REST Framework.
 - python manage.py runserver
 
 Con esto ya tenemeos el backend de Django y la API funcionando ahora sólo necesitamos ejecutar el cliente desde un navegador.
+
+# EndPoints
+
+Par acomprobar la funcionalidad del rest se tiene que ir a las siguientes urls
+
+
+http://127.0.0.1:8000/preguntas/
+http://127.0.0.1:8000/preguntas/NumerodePregunta/
+http://127.0.0.1:8000/respuestas/NumerodePregunta/
+http://127.0.0.1:8000/muestras/
+http://127.0.0.1:8000/muestras/numeromuestras/
+http://127.0.0.1:8000/users/
+http://127.0.0.1:8000/users/codigousuario/
+
+En cada uno de estos se pueden poner estos parametros
+ GET, POST, DELETE, OPTIONS
+
